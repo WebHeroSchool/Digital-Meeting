@@ -84,6 +84,7 @@ header {
 
 .header-main__subtitle {
 	margin-bottom: 2.708vw;
+	white-space: pre-line;
 }
 
 .header-main__button {
@@ -111,17 +112,20 @@ header {
 }
 
 .container-wrapper__text {
-	font: 500 2.083vw/2.442vw robotomedium, arial, helvetica, sans-serif;
+	font: 500 2.121vw/2.442vw robotomedium, arial, helvetica, sans-serif;
 	color: #585858;
 	margin: 3.819vw 0 2.778vw 0;
 	text-align: center;
-	width: 52%;
-}v
+	width: 54%;
+	white-space: pre-line;
+}
 
 .container-wrapper__price {
 	font: 900 2.083vw/2.442vw robotoblack, arial, helvetica, sans-serif;
 	color: #263B83;
 	margin-bottom: 2.292vw;
+	margin-right: 13px;
+
 }
 
 .container-wrapper__book {
@@ -164,7 +168,7 @@ header {
 }
 
 .holder-main__subtitle {
-	font: 900 1.4vw/1.628vw robotoblack, arial, helvetica, sans-serif;
+	font: 900 1.389vw/1.628vw robotoblack, arial, helvetica, sans-serif;
 	color: #FFFFFF;
 }
 
@@ -298,11 +302,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  padding-top: 3.4vw;
-}
-
-.footer-wrapper__location {
-  padding-top: 0.278vw;
+  padding-top: 3.1vw;
 }
 
 .footer-wrapper__location,
@@ -316,6 +316,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	width: 12.222vw;
+	padding-top: 5px;
 }
 
 .navigation-icon {
@@ -367,6 +368,11 @@ header {
 .footer-icon_second {
 	padding-top: 0.556vw;
 	background-size: 86%;
+}
+
+.footer-wrapper-text {
+	padding-top: 5px;
+
 }
 
 .mobile-nav {
@@ -533,7 +539,7 @@ header {
   }
 
   .header-main__title {
-    font: 900 9.5vw/10.987vw robotoblack, arial, helvetica, sans-serif;
+    font: 900 9.36vw/10.987vw robotoblack, arial, helvetica, sans-serif;
     text-align: center;
     margin-bottom: 2.1vw;
   }
@@ -544,7 +550,7 @@ header {
   }
 
   .header-main__subtitle {
-  	margin-bottom: 23.5vw;
+  	margin-bottom: 34.4vw;
   	text-align: center;
   }
 
@@ -565,7 +571,7 @@ header {
   .container-wrapper__text {
     font: 500 6.250vw/7.325vw robotomedium, arial, helvetica, sans-serif;
     margin: 7vw 0 2.778vw 0;
-    width: 90%;
+    width: 94%;
   }
 
   .container-wrapper__price {
@@ -701,6 +707,7 @@ header {
   	font: 900 2.500vw/2.931vw robotoblack, arial, helvetica, sans-serif;
   }
   
+
   .footer__text_second {
   	font: 900 2.500vw/2.931vw robotoblack, arial, helvetica, sans-serif;
   }
